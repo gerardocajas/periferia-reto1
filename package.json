@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "tsx src/api/server.ts",
-    "demo": "tsx demo.ts",
-    "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+  "start": "tsx src/api/server.ts",
+  "demo": "tsx demo.ts",
+  "test": "vitest run",
+  "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@fastify/cors": "latest",
