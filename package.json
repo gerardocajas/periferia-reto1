@@ -1,0 +1,31 @@
+{
+  "name": "reto-01-periferia-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/api/server.ts",
+    "demo": "tsx demo.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fastify/cors": "latest",
+    "@fastify/static": "latest",
+    "archiver": "latest",
+    "exceljs": "latest",
+    "fastify": "latest",
+    "pdf-lib": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/archiver": "^8.0.0",
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
